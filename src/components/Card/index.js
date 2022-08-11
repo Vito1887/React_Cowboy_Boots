@@ -53,7 +53,7 @@ function Card({
               <img
                 width={30}
                 height={30}
-                src={isFavorite ? '/img/star-liked.svg' : '/img/star-unliked.svg'}
+                src={isFavorite ? 'img/star-liked.svg' : 'img/star-unliked.svg'}
                 alt="Unliked"
               />
             </div>
@@ -70,7 +70,7 @@ function Card({
                 <img
                   width={14}
                   height={14}
-                  src={isItemAdded(id) ? '/img/checked.svg' : '/img/plus.svg'}
+                  src={isItemAdded(id) ? 'img/checked.svg' : 'img/plus.svg'}
                   alt="Plus"
                 />
               </button>

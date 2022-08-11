@@ -124,7 +124,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path=""
             exact
             element={
               <Home
@@ -140,9 +140,9 @@ function App() {
             }
           />
 
-          <Route path="/favorites" exact element={<Favorites />} />
+          <Route path="favorites" exact element={<Favorites />} />
 
-          <Route path="/orders" exact element={<Orders />} />
+          <Route path="orders" exact element={<Orders />} />
         </Routes>
       </div>
     </AppContext.Provider>

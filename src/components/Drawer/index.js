@@ -45,7 +45,7 @@ const Drawer = ({ onCloseCart, onRemove, items = [], opened }) => {
             className="remove-btn cu-p"
             width={16}
             height={16}
-            src="/img/remove0.svg"
+            src="img/remove0.svg"
             alt="Close"
           />
         </h2>
@@ -71,7 +71,7 @@ const Drawer = ({ onCloseCart, onRemove, items = [], opened }) => {
                     className="remove-btn"
                     width={14}
                     height={14}
-                    src="/img/remove1.svg"
+                    src="img/remove1.svg"
                     alt="Remove"
                   />
                 </div>
@@ -91,7 +91,7 @@ const Drawer = ({ onCloseCart, onRemove, items = [], opened }) => {
                 </li>
               </ul>
               <button disabled={isLoading} onClick={onClickOrder} className="green-button">
-                Оформить заказ <img width={28} height={28} src="/img/arrow.svg" alt="Arrow" />
+                Оформить заказ <img width={28} height={28} src="img/arrow.svg" alt="Arrow" />
               </button>
             </div>
           </div>
@@ -103,7 +103,7 @@ const Drawer = ({ onCloseCart, onRemove, items = [], opened }) => {
                 ? `Ваш заказ #${orderId} скоро будет передан службе курьерской доставки.`
                 : 'Для того, чтобы оформить заказ, необходимо добавить в корзину какой-либо товар.'
             }
-            image={isOrderComplete ? '/img/complete-order.jpg' : '/img/empty-cart.jpg'}
+            image={isOrderComplete ? 'img/complete-order.jpg' : 'img/empty-cart.jpg'}
           />
         )}
       </div>

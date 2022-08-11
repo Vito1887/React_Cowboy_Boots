@@ -12,7 +12,7 @@ const Info = ({ title, image, description }) => {
       <button
         onClick={() => setCartOpened(false)}
         className="green-button d-flex align-center justify-center">
-        <img width={24} height={24} src="/img/arrow-back.svg" alt="Arrow" />
+        <img width={24} height={24} src="img/arrow-back.svg" alt="Arrow" />
         Вернуться назад
       </button>
     </div>

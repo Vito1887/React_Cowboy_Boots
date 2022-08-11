@@ -31,14 +31,14 @@ const Home = ({
       <div className="d-flex align-center justify-between mb-35">
         <h1>{searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все ковбойские сапоги'}</h1>
         <div className="search-block d-flex align-center">
-          <img width={25} height={25} src="/img/search.svg" alt="Search" />
+          <img width={25} height={25} src="img/search.svg" alt="Search" />
           {searchValue && (
             <img
               onClick={() => setSearchValue('')}
               className="clear remove-btn cu-p"
               width={12}
               height={12}
-              src="/img/remove2.svg"
+              src="img/remove2.svg"
               alt="Clear"
             />
           )}

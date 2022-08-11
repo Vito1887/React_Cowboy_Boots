@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React_Cowboy_Boots/static/css/main.e3d8b2d3.css",
-    "main.js": "/React_Cowboy_Boots/static/js/main.ab1b19bc.js",
+    "main.js": "/React_Cowboy_Boots/static/js/main.939ed562.js",
     "static/media/ImageBg.jpg": "/React_Cowboy_Boots/static/media/ImageBg.2e8d0d9b618ba70180e0.jpg",
     "index.html": "/React_Cowboy_Boots/index.html",
     "main.e3d8b2d3.css.map": "/React_Cowboy_Boots/static/css/main.e3d8b2d3.css.map",
-    "main.ab1b19bc.js.map": "/React_Cowboy_Boots/static/js/main.ab1b19bc.js.map"
+    "main.939ed562.js.map": "/React_Cowboy_Boots/static/js/main.939ed562.js.map"
   },
   "entrypoints": [
     "static/css/main.e3d8b2d3.css",
-    "static/js/main.ab1b19bc.js"
+    "static/js/main.939ed562.js"
   ]
 }

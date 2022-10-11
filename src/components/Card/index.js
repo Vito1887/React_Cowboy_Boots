@@ -23,6 +23,7 @@ function Card({
     onPlus(obj);
   };
 
+  console.log(isItemAdded);
   const onClickFavorite = () => {
     onFavorite(obj);
     setIsFavorite(!isFavorite);
